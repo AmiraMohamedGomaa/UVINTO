@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:background="@color/background"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/splash_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_200sdp"
+            app:layout_constraintTop_toTopOf="parent"
+            android:src="@drawable/logo"
+            android:backgroundTint="@color/background"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/url_textview" />
+
+        <TextView
+            android:id="@+id/url_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="www.uvinto.com"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/_16ssp"
+            android:layout_marginBottom="@dimen/_15sdp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
