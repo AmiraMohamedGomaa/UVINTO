@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.uvinto.HomeFragment"
+        android:label="fragment_home_list"
+        tools:layout="@layout/fragment_home_list" />
+    <fragment
+        android:id="@+id/navigationFragment"
+        android:name="com.example.uvinto.NavigationFragment"
+        android:label="fragment_navigation_list"
+        tools:layout="@layout/fragment_navigation_list" />
+    <fragment
+        android:id="@+id/createEventFragment"
+        android:name="com.example.uvinto.CreateEventFragment"
+        android:label="fragment_create_event"
+        tools:layout="@layout/fragment_create_event" />
+    <fragment
+        android:id="@+id/notificationFragment"
+        android:name="com.example.uvinto.NotificationFragment"
+        android:label="fragment_notification_list"
+        tools:layout="@layout/fragment_notification_list" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.uvinto.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>
