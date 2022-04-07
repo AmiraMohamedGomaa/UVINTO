@@ -32,10 +32,12 @@
         <ImageView
             android:layout_width="117dp"
             android:layout_height="91dp"
-            android:layout_marginStart="144dp"
-            android:layout_marginTop="36dp"
-            android:src="@drawable/smalllogo"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="32dp"
             android:scaleType="centerCrop"
+            android:src="@drawable/logo"
+            app:layout_constraintEnd_toStartOf="@+id/guideline2"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -54,6 +56,7 @@
         android:id="@+id/viewPager"
         android:layout_width="0dp"
         android:layout_height="@dimen/_250sdp"
+        android:layout_marginTop="32dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"

@@ -25,13 +25,14 @@
             android:id="@+id/imageIntro"
             android:layout_width="0dp"
             android:layout_height="@dimen/_100sdp"
-            app:lottie_rawRes="@raw/calendar_booking"
-            app:lottie_autoPlay="true"
-            app:lottie_loop="true"
+            android:layout_marginTop="32dp"
             app:layout_constraintEnd_toEndOf="@id/guideline3"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="@id/guideline4"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/calendar_booking" />
 
 
         <TextView

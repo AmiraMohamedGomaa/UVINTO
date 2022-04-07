@@ -17,36 +17,29 @@
             android:id="@+id/splash_logo"
             android:layout_width="wrap_content"
             android:layout_height="@dimen/_200sdp"
-            app:layout_constraintTop_toTopOf="parent"
-            android:src="@drawable/logo"
-            app:layout_constraintStart_toStartOf="parent"
+            android:src="@drawable/animated_logo"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintBottom_toTopOf="@+id/url_textview" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
 
 <!--        <com.airbnb.lottie.LottieAnimationView-->
-<!--            android:id="@+id/splash_logo"-->
+<!--            android:id="@+id/splash"-->
 <!--            android:layout_width="0dp"-->
 <!--            android:layout_height="@dimen/_100sdp"-->
-<!--            app:lottie_rawRes="@drawable/logo"-->
+<!--            android:layout_marginStart="32dp"-->
+<!--            android:layout_marginTop="32dp"-->
+<!--            android:layout_marginEnd="32dp"-->
+<!--            android:layout_marginBottom="32dp"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
 <!--            app:lottie_autoPlay="true"-->
 <!--            app:lottie_loop="false"-->
-<!--            app:layout_constraintTop_toTopOf="parent"-->
-<!--            app:layout_constraintStart_toStartOf="parent"-->
-<!--            app:layout_constraintEnd_toEndOf="parent"-->
-<!--            app:layout_constraintBottom_toTopOf="@+id/url_textview"/>-->
-
-        <TextView
-            android:id="@+id/url_textview"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="www.uvinto.com"
-            android:textColor="@color/gray"
-            android:textSize="@dimen/_16ssp"
-            android:layout_marginBottom="@dimen/_15sdp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" />
+<!--            app:lottie_rawRes="@raw/logo"-->
+<!--            app:lottie_repeatCount="0" />-->
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
