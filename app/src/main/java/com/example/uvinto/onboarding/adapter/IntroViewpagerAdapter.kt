@@ -1,4 +1,4 @@
-package com.example.uvinto.onboarding
+package com.example.uvinto.onboarding.adapter
 
 import android.content.Context
 import android.view.LayoutInflater

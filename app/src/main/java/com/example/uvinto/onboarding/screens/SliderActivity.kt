@@ -1,20 +1,18 @@
 package com.example.uvinto.onboarding.screens
 
 import android.content.Intent
-import android.content.SharedPreferences
-import android.opengl.Visibility
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import com.example.uvinto.R
 import com.example.uvinto.databinding.ActivitySliderBinding
-import com.example.uvinto.onboarding.IntroViewpagerAdapter
+import com.example.uvinto.onboarding.adapter.IntroViewpagerAdapter
 import com.example.uvinto.onboarding.models.ScreenIntroModel
 import com.google.android.material.tabs.TabLayout
 
 class SliderActivity : AppCompatActivity() {
    private lateinit var sliderBinding : ActivitySliderBinding
-   private lateinit var introAdapter :IntroViewpagerAdapter
+   private lateinit var introAdapter : IntroViewpagerAdapter
    private lateinit var list :List<ScreenIntroModel>
   private var position=0
     override fun onCreate(savedInstanceState: Bundle?) {

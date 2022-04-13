@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.uvinto">
-
+<uses-permission android:name="android.permission.INTERNET"/>
     <supports-screens
         android:anyDensity="true"
         android:largeScreens="true"
@@ -29,7 +29,7 @@
             android:name=".onboarding.screens.ForgetPasswordStepOneActivity"
             android:exported="false" />
         <activity
-            android:name=".onboarding.screens.SignUpActivity"
+            android:name=".onboarding.screens.RegisterActivity"
             android:exported="false" />
         <activity
             android:name=".onboarding.screens.LoginActivity"
